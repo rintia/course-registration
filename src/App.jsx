@@ -9,13 +9,13 @@ function App() {
    useEffect(() => {
     fetch('./data.json')
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => setAllCourses(data))
    },[])
 
   return (
     <>
       <h1 className='font-bold text-4xl text-center my-8'>Course Registration</h1>
-      <Courses></Courses>
+      <Courses allCourses={allCourses}></Courses>
     </>
   )
 }
