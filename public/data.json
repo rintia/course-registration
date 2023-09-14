@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/wrfmx28/Rectangle-2.png",
+      "course_name": "Introduction to Python Programming",
+      "credit_hour": 3,
+      "price": 49.99,
+      "details": "Learn the fundamentals of Python programming and start building your own applications."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/y4SyQGv/Rectangle-2-1.png",
+      "course_name": "Web Development with HTML, CSS, and JavaScript",
+      "credit_hour": 4,
+      "price": 59.99,
+      "details": "Master front-end web development using HTML, CSS, and JavaScript."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/FzqWkr1/Rectangle-2-2.png",
+      "course_name": "Data Science with Python",
+      "credit_hour": 5,
+      "price": 79.99,
+      "details": "Dive into data analysis, machine learning, and data visualization with Python."
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/wY9JC50/Rectangle-2-3.png",
+      "course_name": "Java Programming for Beginners",
+      "credit_hour": 4,
+      "price": 54.99,
+      "details": "Get started with Java programming and build your first Java applications."
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/XyWTjCg/Rectangle-2-4.png",
+      "course_name": "Full-Stack Web Development with Node.js and React",
+      "credit_hour": 6,
+      "price": 89.99,
+      "details": "Become a full-stack web developer using Node.js and React for building dynamic web applications."
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/BPgKf78/Rectangle-2-6.png",
+      "course_name": "Machine Learning Fundamentals",
+      "credit_hour": 4,
+      "price": 69.99,
+      "details": "Learn the basics of machine learning and start building predictive models."
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/kJLJwXC/Rectangle-2-5.png",
+      "course_name": "Cybersecurity Essentials",
+      "credit_hour": 3,
+      "price": 49.99,
+      "details": "Understand the fundamentals of cybersecurity and protect digital assets."
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/xg7MY2t/Rectangle-3.png",
+      "course_name": "Database Design and Management",
+      "credit_hour": 4,
+      "price": 59.99,
+      "details": "Master the art of designing and managing relational databases."
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/LkG2KXz/Rectangle-3-1.png",
+      "course_name": "Mobile App Development with Flutter",
+      "credit_hour": 5,
+      "price": 79.99,
+      "details": "Build cross-platform mobile apps using the Flutter framework."
+    }
+  ]
+  
