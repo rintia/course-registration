@@ -9,6 +9,7 @@ function App() {
    const[allCourses, setAllCourses] = useState([]);
    const[selectedCourse, setSelectedCourse] = useState([]);
    const[totalCredit, setTotalCredit] = useState(0);
+   const[totalPrice, setTotalPrice] = useState(0);
    const[remaining, setRemaining] = useState(20);
    useEffect(() => {
     fetch('./data.json')
@@ -18,16 +19,22 @@ function App() {
    const handleSelectedCourses = (course) =>{
         const isExist = selectedCourse.find((item) => item.id == course.id);
         let credit = course.credit_hour;
+        let cost = course.price;
         if (isExist){
           return alert('Course already added');
         }
        else{
          selectedCourse.forEach((item) =>{
           credit = credit + item.credit_hour;
+          cost = cost + item.price;
          });
          const totalRemaining = 20 - credit;
+         if(credit > 20){
+          return alert('Maximum Limit Reached')
+         }
          setRemaining(totalRemaining);
          setTotalCredit(credit);
+         setTotalPrice(cost);
         setSelectedCourse([...selectedCourse, course])
        }
    }
@@ -37,7 +44,8 @@ function App() {
       <h1 className='font-bold text-4xl text-center my-8'>Course Registration</h1>
       <div className='flex gap-6 max-w-screen-xl mx-auto'>
       <Courses allCourses={allCourses} handleSelectedCourses={handleSelectedCourses}></Courses>
-      <Cart selectedCourse={selectedCourse} totalCredit={totalCredit} remaining={remaining}></Cart>
+      <Cart selectedCourse={selectedCourse} totalCredit={totalCredit} remaining={remaining} 
+      totalPrice={totalPrice}></Cart>
       </div>
     </>
   )
