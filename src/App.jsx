@@ -14,7 +14,13 @@ function App() {
     .then(data => setAllCourses(data))
    },[]);
    const handleSelectedCourses = (course) =>{
-       setSelectedCourse([...selectedCourse, course])
+        const isExist = selectedCourse.find((item) => item.id == course.id);
+        if (isExist){
+          return alert('Course already added');
+        }
+       else{
+        setSelectedCourse([...selectedCourse, course])
+       }
    }
 
   return (
