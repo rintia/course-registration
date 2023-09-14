@@ -2,8 +2,7 @@ import PropTypes from 'prop-types';
 import Course from '../Course/Course';
 const Courses = ({allCourses}) => {
     return (
-        <div>
-            <h1>Total Courses:{allCourses.length} </h1>
+        <div className='grid grid-cols-3 gap-4'>
             {
                 allCourses.map((course, idx)=><Course key={idx} course={course}></Course>)
             }
