@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 const Course = ({course}) => {
    const{image, course_name, price, credit_hour, details} =course;
     return (
-        <div className='w-96 shadow-xl py-4 px-8 rounded space-y-2'>
+        <div className=' shadow-xl py-4 px-8 rounded space-y-2'>
            <div className='flex justify-center'>
              <img src={image} alt="" className='rounded w-full' />
            </div>
