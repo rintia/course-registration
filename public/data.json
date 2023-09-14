@@ -29,7 +29,7 @@
       "course_name": "Java Programming for Beginners",
       "credit_hour": 4,
       "price": 54.99,
-      "details": "Get started with Java programming and build your first Java applications."
+      "details": "Get started with Java programming and build your first Java applications. Learn the fundamentals of Java programming. "
     },
     {
       "id": 5,
@@ -45,7 +45,7 @@
       "course_name": "Machine Learning Fundamentals",
       "credit_hour": 4,
       "price": 69.99,
-      "details": "Learn the basics of machine learning and start building predictive models."
+      "details": "Learn the basics of machine learning and start building predictive models.Learn how to design and implement machine learning models."
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "course_name": "Database Design and Management",
       "credit_hour": 4,
       "price": 59.99,
-      "details": "Master the art of designing and managing relational databases."
+      "details": "Master the art of designing and managing relational databases. Build your career in DBMS."
     },
     {
       "id": 9,
