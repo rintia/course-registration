@@ -4,6 +4,7 @@ import './App.css'
 import Courses from './Components/Courses/Courses'
 import { useEffect } from 'react';
 import Cart from './Components/Cart/Cart';
+import toast,{Toaster} from 'react-hot-toast';
 
 function App() {
    const[allCourses, setAllCourses] = useState([]);
@@ -21,7 +22,7 @@ function App() {
         let credit = course.credit_hour;
         let cost = course.price;
         if (isExist){
-          return alert('Course already added');
+         return toast.error('Already added');
         }
        else{
          selectedCourse.forEach((item) =>{
@@ -30,7 +31,7 @@ function App() {
          });
          const totalRemaining = 20 - credit;
          if(credit > 20){
-          return alert('Maximum Limit Reached')
+          return toast.error('Maximum Limit Reached')
          }
          setRemaining(totalRemaining);
          setTotalCredit(credit);
@@ -43,6 +44,7 @@ function App() {
     <>
       <h1 className='font-bold text-4xl text-center my-8'>Course Registration</h1>
       <div className='flex gap-6 max-w-screen-xl mx-auto'>
+      <Toaster position="top-center"/>
       <Courses allCourses={allCourses} handleSelectedCourses={handleSelectedCourses}></Courses>
       <Cart selectedCourse={selectedCourse} totalCredit={totalCredit} remaining={remaining} 
       totalPrice={totalPrice}></Cart>
