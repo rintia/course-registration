@@ -5,7 +5,7 @@
       "course_name": "Introduction to Python Programming",
       "credit_hour": 3,
       "price": 49.99,
-      "details": "Learn the fundamentals of Python programming and start building your own applications."
+      "details": "Learn the fundamentals of Python programming."
     },
     {
       "id": 2,
@@ -29,7 +29,7 @@
       "course_name": "Java Programming for Beginners",
       "credit_hour": 4,
       "price": 54.99,
-      "details": "Get started with Java programming and build your first Java applications. Learn the fundamentals of Java programming. "
+      "details": "Get started with Java programming and build your first Java applications. Build you career. "
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "course_name": "Full-Stack Web Development with Node.js and React",
       "credit_hour": 6,
       "price": 89.99,
-      "details": "Become a full-stack web developer using Node.js and React for building dynamic web applications."
+      "details": "Become a full-stack web developer using Node.js and React."
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "course_name": "Machine Learning Fundamentals",
       "credit_hour": 4,
       "price": 69.99,
-      "details": "Learn the basics of machine learning and start building predictive models.Learn how to design and implement machine learning models."
+      "details": "Learn the basics of machine learning and start building predictive an interactive models. "
     },
     {
       "id": 7,

@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       <h1 className='font-bold text-4xl text-center my-8'>Course Registration</h1>
-      <div className='flex gap-6 max-w-screen-xl mx-auto'>
+      <div className='md:flex gap-6 max-w-screen-xl mx-auto px-4'>
       <Toaster position="top-center"/>
       <Courses allCourses={allCourses} handleSelectedCourses={handleSelectedCourses}></Courses>
       <Cart selectedCourse={selectedCourse} totalCredit={totalCredit} remaining={remaining} 
